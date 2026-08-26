@@ -8,7 +8,7 @@ public class HomePage {
 
     WebDriver driver;
 
-        @FindBy(xpath = "//span[text()='Login]")
+        @FindBy(xpath = "//*[@id=\"app-root\"]/nav/div[1]/div[3]/button")
         WebElement loginButton;
 
         public HomePage(WebDriver driver){
